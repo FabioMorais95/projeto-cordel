@@ -1,0 +1,45 @@
+
+section > p{
+    width: 50%;
+    font-size: 3rem;
+    font-family: var(--font-p);
+    line-height: 2;
+    padding-left: 1rem;
+}
+
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.356);
+}
+section.joaninha{
+    background-image: url('/assets/background001.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+}
+section.joaninha > p{
+    color: white;
+}
+section.carta{
+    background-image: url('/assets/background002.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+}
+section.carta > p{
+    color: white;
+}
+
+@media (max-width:425px){
+    section > p{
+        font-size: 2.3rem;
+        width: 100%;
+    }
+}
+@media (max-width:320px){
+    section > p {
+        font-size: 1.8rem;
+    }
+}
+@media (max-width: 768px){
+    section > p{
+        font-size: 2rem;
+    }
+}
