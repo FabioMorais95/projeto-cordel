@@ -21,7 +21,7 @@ section.joaninha > p{
 section.carta{
     background-image: url('../assets/background002.jpg');
     background-attachment: fixed;
-    background-position: center center;
+
 }
 section.carta > p{
     color: white;
@@ -31,6 +31,14 @@ section.carta > p{
     section > p{
         font-size: 2.3rem;
         width: 100%;
+    }
+    section.joaninha{
+        background-size: cover;
+        background-position: center center;
+    }
+    section.carta{
+        background-size: cover;
+        background-position: right center;
     }
 }
 @media (max-width:320px){
