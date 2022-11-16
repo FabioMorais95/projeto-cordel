@@ -11,7 +11,7 @@ section.imagem > p{
     background-color: rgba(0, 0, 0, 0.356);
 }
 section.joaninha{
-    background-image: url('/assets/background001.jpg');
+    background-image: url('../assets/background001.jpg');
     background-attachment: fixed;
     background-position: center center;
 }
@@ -19,7 +19,7 @@ section.joaninha > p{
     color: white;
 }
 section.carta{
-    background-image: url('/assets/background002.jpg');
+    background-image: url('../assets/background002.jpg');
     background-attachment: fixed;
     background-position: center center;
 }
